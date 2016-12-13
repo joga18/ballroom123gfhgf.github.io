@@ -1,0 +1,34 @@
+@import url(main.css);
+@import url(../fonts/fonts.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "century", verdana, sans-serif;
+  font-size: 10px;
+  line-height: 16px;
+  background: white;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, white 0%, #dbdbdb 100%);
+  /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, white 0%, #dbdbdb 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, white 0%, #dbdbdb 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dbdbdb',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+ul, li {
+  list-style: none; }
+
+p {
+  margin: 10px 0;
+  text-indent: 3rem;
+  text-align: justify; }
+
+/*# sourceMappingURL=style.css.map */
